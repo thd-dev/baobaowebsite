@@ -219,7 +219,7 @@ main::before{
 .hero {
   max-height: 100vh;
   position: relative;
-  background: url(..../assets/dark\ bg.png);
+  background: url(../assets/dark\ bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
