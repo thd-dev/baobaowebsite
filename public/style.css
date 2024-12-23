@@ -622,6 +622,7 @@ footer{
   height: 100%;
   height: max-content;
   .left{
+    position: relative;
     background-color: var(--accent);
     padding: 3rem;
     padding-left: var(--max-margin);
@@ -709,8 +710,6 @@ footer{
       }
     }
   }
-
-
   .right{
     background-color: var(--black);
     padding-inline: 2rem;
@@ -750,6 +749,20 @@ footer{
       }
     }
   }
+}
+
+.footer .left::before{
+  content: '';
+  height: 50px;
+  width: 440px;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/small-wave.png);
+  background-repeat: no-repeat;
+  /* background-color: #267A03; */
+  z-index: 999;
+  position: absolute;
+  
 }
 
 @media screen and (min-width: 1024px) {
