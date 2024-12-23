@@ -219,7 +219,7 @@ main::before{
 .hero {
   max-height: 100vh;
   position: relative;
-  background: url(../assets/dark\ bg.png);
+  background: url(..../assets/dark\ bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -290,7 +290,7 @@ main::before{
 .community::before{
   content: '';
   position: absolute;
-  background-image: url(/assets/divider1.png);
+  background-image: url(../assets/divider1.png);
   /* background-color: #CEDCCD; */
   bottom: -50px;
   left: 0;
@@ -302,7 +302,7 @@ main::before{
 }
 
 .whyUs{
-  background-image: url(/assets/bg-2.png);
+  background-image: url(../assets/bg-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -326,7 +326,7 @@ main::before{
       display: flex;
       flex-direction: column;
       align-items: baseline;
-      background-image: url(/assets/grid-bg.svg);
+      background-image: url(../assets/grid-bg.svg);
       background-color: var(--secondary-bg);
       background-repeat: no-repeat;
       background-position: top;
@@ -406,14 +406,14 @@ main::before{
     }
 
     &::before{
-      background-image: url(/assets/dapos-left.png);
+      background-image: url(../assets/dapos-left.png);
       left: 20%;
       right: auto;
     }
 
     
     &::after{
-      background-image: url(/assets/dapos-right.png);
+      background-image: url(../assets/dapos-right.png);
       right: 20%;
       left: auto;
     }
@@ -424,7 +424,7 @@ main::before{
 
 
 .community{
-  background-image: url(/assets/dark\ bg.png);
+  background-image: url(../assets/dark\ bg.png);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -481,7 +481,7 @@ main::before{
   width: 100%;
   position: relative;
   background-color: var(--secondary-bg);
-  background-image: url(/assets/roadmap-bg.png);
+  background-image: url(../assets/roadmap-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -757,7 +757,7 @@ footer{
   width: 440px;
   top: 0;
   left: 0;
-  background-image: url(/assets/small-wave.png);
+  background-image: url(../assets/small-wave.png);
   background-repeat: no-repeat;
   /* background-color: #267A03; */
   z-index: 999;
